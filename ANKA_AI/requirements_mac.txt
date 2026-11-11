@@ -1,0 +1,5 @@
+# ── macOS EK GEREKSİNİMLER ───────────────────────────────────────────────────
+-r requirements.txt
+pyobjc-core>=9.0
+pyobjc-framework-Cocoa>=9.0
+pyobjc-framework-AVFoundation>=9.0

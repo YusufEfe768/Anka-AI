@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "anka-ai"
+version = "9.0.0"
+description = "Anka — Gelişmiş Nöral Kontrol Ajanı. API key gerektirmez!"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["yapay-zeka", "asistan", "jarvis", "local-ai", "türkçe", "ai"]
+
+[project.scripts]
+anka = "anka:main"
+anka-ai = "anka:main"
+
+[project.urls]
+Homepage = "https://github.com/yusuf/anka"

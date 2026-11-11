@@ -1,0 +1,4 @@
+# ── WINDOWS EK GEREKSİNİMLER ─────────────────────────────────────────────────
+-r requirements.txt
+pywin32>=306
+pycaw>=20181226
